@@ -91,9 +91,9 @@ public class EarthquakeCityMap extends PApplet {
 		}
 
 
-		img1 = loadImage("one.png");
-		img2 = loadImage("two.png");
-		img3 = loadImage("three.png");
+//		img1 = loadImage("one.png");
+//		img2 = loadImage("two.png");
+//		img3 = loadImage("three.png");
 
 
 		MapUtils.createDefaultEventDispatcher(this, map);
@@ -149,7 +149,7 @@ public class EarthquakeCityMap extends PApplet {
 
 
 	    // could be used for debugging
-	    printQuakes();
+	    //printQuakes();
 
 	    // (3) Add markers to map
 	    //     NOTE: Country markers are not added to the map.  They are used

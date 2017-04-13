@@ -107,8 +107,8 @@ public abstract class EarthquakeMarker extends CommonMarker implements Comparabl
 	public void showTitle(PGraphics pg, float x, float y)
 	{
 		String title = getTitle();
+		
 		pg.pushStyle();
-
 		pg.rectMode(PConstants.CORNER);
 
 		pg.stroke(110);
@@ -118,11 +118,9 @@ public abstract class EarthquakeMarker extends CommonMarker implements Comparabl
 		pg.textAlign(PConstants.LEFT, PConstants.TOP);
 		pg.fill(0);
 		pg.text(title, x - 10 , y - 26);
-
-
 		pg.popStyle();
-
 	}
+	
 
 
 	/**
